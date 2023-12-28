@@ -47,9 +47,12 @@ public class FirstActivity extends AppCompatActivity {
 //                finish();
 //                Intent intent = new Intent("com.example.activitytest.ACTION_START");
 //                intent.addCategory("com.example.activitytest.MY_CATEGORY");
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://www.baidu.com"));
-                startActivity(intent);
+//                String data = "Hello SecondActivity";
+//                Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+//                intent.setData(Uri.parse("tel:10086"));
+//                intent.putExtra("extra_data", data);
+//                startActivity(intent);
+//                startActivityForResult(inte);
             }
         });
     }
